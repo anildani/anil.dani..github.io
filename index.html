@@ -1,14 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
-<html lang="en-US>
-  <head>
-    <meta charset="utf-8">
+<html lang="en-US">
+  <head>    
     <title>My Favourite Bike</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">	
   </head>
   <body>
 <header>
       <h1>Header</h1>
- </header>
+	  </header>
 
     <nav>
       <ul>
@@ -28,17 +26,44 @@
 <main>	 
 <h1>My Bike</h1>
 <p>My bike is white of <b>BWM</b></p>    
-<img src="images/bike.jpg" alt="My test image" height="500" width="500">
+<figure>
+  <img src="images/bike.jpg"
+       alt="Bike"
+       width="500"
+       height="500">
+
+  <figcaption>DEMO Bike</figcaption>
+</figure>
+
 <h2>Bike Features</h2>
 <ol> 
   <li>Battery Operated</li>
   <li>Music</li>
   <li>Great Look</li>
 </ol>
+<video controls width="600" height="500" autoplay loop>
+  <source src="videos/jinglebells.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="https://www.youtube.com/watch?v=nyY0xIz6u8Y">link to the video</a> instead.</p>
+</video>
 <p>
-<a href="https://www.youtube.com/watch_popup?v=hq3yfQnllfQ" target="_blank">Alphabet Poem</a>
-( Watch the video - stream opens in separate tab)
+<h2>Song</h2>
+<audio controls>
+  <source src="audios/SunSahibaSun.mp3" type="audio/mp3">  
+</audio>
 </p>
+<p>YouTube Video </p>
+<iframe width="500" height="500" src="https://www.youtube.com/watch_popup?v=hq3yfQnllfQ" frameborder="0" allowfullscreen>
+</iframe>
+
+<p>Google Maps</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.3063212215366!2d77.21613531508096!3d28.56056298244629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce24203181c59%3A0xacabe4bd56a7fe87!2sCompro+Technologies!5e0!3m2!1sen!2sin!4v1487236324530" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<p>JavaScript PDF</p>
+<object data="docs/js.pdf" type="application/pdf"
+        width="800" height="1200" typemustmatch>
+  <p>You don't have a PDF plugin, but you can <a href="docs/js.pdf">download the PDF file.</a></p>
+</object>
+
 <p><abbr title="National Aeronautics and Space Administration">NASA</abbr> sure does some exciting work.</p>
 
 <button>Change user</button>
